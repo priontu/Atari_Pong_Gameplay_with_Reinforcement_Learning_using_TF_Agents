@@ -30,7 +30,7 @@ Agent's Gameplay mid-training (near 150,000 iterations):
 
 ![myAgentPlays-7](https://user-images.githubusercontent.com/61733487/208229643-b8eeedd7-ae45-43e4-803a-399af94e5654.gif)
 
-The agent is still learning new things, but it has learned a way to beat the player consistently.
+The agent is still learning new things. It's having both wins and losses, but it has learned a way to beat the player consistently.
 
 Agent's Gameplay after training (over 300,000 iterations):
 
