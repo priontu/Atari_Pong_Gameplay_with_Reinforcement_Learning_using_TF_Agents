@@ -1,6 +1,6 @@
 # Atari_Pong_Gameplay_with_Reinforcement_Learning_using_TF_Agents
 
-In this project, we implement Reinforcement Learning to develop an Agent that teaches itself to play the DemonAttack Atari Game. The project was developed using tensorflow, TF-Agents and OpenAI Gym.
+In this project, we implement Reinforcement Learning to develop an Agent that teaches itself to play the Atari Pong Game. The project was developed using tensorflow, TF-Agents and OpenAI Gym.
 
 Reinforcement learning (RL) is the area of machine learning concerned with intelligent agents that take actions in an environment in order to maximize the notion of cumulative reward.
 
@@ -30,7 +30,7 @@ Agent's Gameplay mid-training (near 150,000 iterations):
 
 ![myAgentPlays-7](https://user-images.githubusercontent.com/61733487/208229643-b8eeedd7-ae45-43e4-803a-399af94e5654.gif)
 
-The agent learned some new things -- now it knows it needs to shoot the enemy bats and kill them in order to gain points, but it hasn't yet learned how to stay slive by evading the enemy fire.
+The agent is still learning new things, but it has learned a way to beat the player consistently.
 
 Agent's Gameplay after training (over 300,000 iterations):
 
@@ -38,7 +38,7 @@ Agent's Gameplay after training (over 300,000 iterations):
 
 At this point in the training, we have reached Human-Level Control in the Gameplay.
 
-We can see that the Gameplay has improved. The agent has learned how to shoot and kill the enemy in order to earn rewards, but it has also learned actions like following enemy movements and evading enemy gunfire which would allow it to earn greater rewards. However, it definitely requries some more training, since the enemy seems to have some more tricks up its sleeve, like increasing speed of movement and gunfire, which the agent hasn't adapted to yet. These would be the same setbacks a human player would face, which he would improve on by playing the game some more. The same applies to our agent. 
+We can see that the Gameplay has improved. The agent has learned the best way to keep winning consistently, and it repeats the same action every time.
 
 References:
 
