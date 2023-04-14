@@ -40,6 +40,10 @@ At this point in the training, we have reached Human-Level Control in the Gamepl
 
 We can see that the Gameplay has improved. The agent has learned the best way to keep winning consistently, and it repeats the same action every time.
 
+Google Cloud Machine Configuration:
+
+![image](https://user-images.githubusercontent.com/61733487/232131444-aebf3ff4-5431-43db-a41f-51be483930ee.png)
+
 References:
 
 [1] https://www.nature.com/articles/nature14236
